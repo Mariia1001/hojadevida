@@ -1,21 +1,26 @@
 
 img{
-    width: 300px;
-    height: 320px;
-    border-radius: 150px;
-    border: 10px solid #a49eda;
+    width: 400px;
+    height: 420px;
+    padding-left: 4cm;
+    padding-top: 2cm;
+    border-radius: #dedaff 10px;
+    
     }
     
 h1{
     color: #030107;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(149, 168, 202);
+    background-color: rgb(119, 169, 255);
     padding: 30px;
+    text-align: center;
+    font-size: 1cm;
    
 }
 a{
-    font-size: large;
+    font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
+
 }
 .padre1 {
     display: grid;
@@ -26,10 +31,11 @@ a{
     }
     
     .titulo { grid-area: 1 / 1 / 2 / 6; 
-    background-color: #a49eda;}
+    background-color: rgb( 119, 169, 255);}
     .info2 { grid-area: 2 / 1 / 4 / 3;
-    background-color: aquamarine;}
+    background-color: rgb(245, 248, 247);}
     .foto3 { grid-area: 2 / 3 / 4 / 6;
-    background-color: rgb(231, 197, 147); }
+    background-color: rgb(55, 101, 255); }
     .resto4 { grid-area: 4 / 1 / 6 / 6; 
-    background-color: #a49eda;}
+    background-color: #ffffff;
+    text-align: center;}
